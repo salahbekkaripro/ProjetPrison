@@ -1,0 +1,50 @@
+#universal-overlay {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(145deg, #2a2a2a, #1c1c1c, #2f2f2f, #1a1a1a);
+    background-blend-mode: multiply;
+    color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.8s ease-in-out;
+    text-align: center;
+    backdrop-filter: blur(2px);
+  }
+  
+  #universal-overlay.show {
+    opacity: 1;
+    animation: overlayZoomGlow 3s ease-in-out infinite;
+  }
+  
+  @keyframes overlayZoomGlow {
+    0% { transform: scale(1); text-shadow: 0 0 4px #ccc, 0 0 10px #eee; }
+    50% { transform: scale(1.03); text-shadow: 0 0 12px #fff, 0 0 24px #ddd; }
+    100% { transform: scale(1); text-shadow: 0 0 4px #ccc, 0 0 10px #eee; }
+  }
+  
+  @keyframes flashFadeInOut {
+    0% { opacity: 0; }
+    30% { opacity: 1; }
+    70% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  #flash-overlay {
+    position: fixed;
+    inset: 0;
+    background: white;
+    opacity: 0;
+    z-index: 10000;
+    pointer-events: none;
+  }
+  
+  #flash-overlay.show {
+    animation: flashFadeInOut 1.5s ease forwards;
+  }
+  

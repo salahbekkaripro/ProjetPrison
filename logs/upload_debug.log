@@ -1,0 +1,46 @@
+[2025-05-19 14:56:51] Échec de move_uploaded_file vers : /var/www/html/ProjetPrison/ajax/../uploads/comments/682b2a93360d5_Capture d’écran du 2025-05-19 02-22-36.png
+[2025-05-19 14:57:16] Échec de move_uploaded_file vers : /var/www/html/ProjetPrison/ajax/../uploads/comments/682b2aac0ce37_Capture d’écran du 2025-05-19 02-22-36.png
+[2025-05-19 14:58:48] Fichier reçu : Array
+(
+    [name] => Capture d’écran du 2025-05-19 14-08-41.png
+    [full_path] => Capture d’écran du 2025-05-19 14-08-41.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpUOn0B7
+    [error] => 0
+    [size] => 601389
+)
+
+[2025-05-19 14:58:48] Échec de move_uploaded_file vers : /var/www/html/ProjetPrison/ajax/../uploads/comments/682b2b087a2d2_Capture d’écran du 2025-05-19 14-08-41.png
+[2025-05-19 15:03:52] Fichier reçu : Array
+(
+    [name] => Capture d’écran du 2025-05-19 14-08-41.png
+    [full_path] => Capture d’écran du 2025-05-19 14-08-41.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpQ8awJn
+    [error] => 0
+    [size] => 601389
+)
+
+[2025-05-19 15:03:52] Échec de move_uploaded_file vers : /var/www/html/ProjetPrison/ajax/../uploads/comments/682b2c38ceb58_Capture d’écran du 2025-05-19 14-08-41.png
+[2025-05-19 15:14:55] Fichier reçu : Array
+(
+    [name] => Capture d’écran du 2025-05-19 14-32-36.png
+    [full_path] => Capture d’écran du 2025-05-19 14-32-36.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpEIkm9z
+    [error] => 0
+    [size] => 508481
+)
+
+[2025-05-19 15:14:55] Échec de move_uploaded_file vers : /var/www/html/ProjetPrison/ajax/../uploads/comments/682b2ecfc4acf_Capture d’écran du 2025-05-19 14-32-36.png
+[2025-05-19 15:19:16] Fichier reçu : Array
+(
+    [name] => Capture d’écran du 2025-05-19 14-10-24.png
+    [full_path] => Capture d’écran du 2025-05-19 14-10-24.png
+    [type] => image/png
+    [tmp_name] => /tmp/phpJ67s7L
+    [error] => 0
+    [size] => 611066
+)
+
+[2025-05-19 15:19:16] Fichier uploadé avec succès : 682b2fd463f7b_Capture d’écran du 2025-05-19 14-10-24.png

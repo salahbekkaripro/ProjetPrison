@@ -1,0 +1,16 @@
+body {
+    background: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+input, button {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+}
+button {
+    background: orangered;
+    color: white;
+    cursor: pointer;
+}

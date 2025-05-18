@@ -1,0 +1,43 @@
+#overlay-anim {
+    position: fixed;
+    inset: 0;
+    background: rgb(155, 155, 155);
+    color: rgb(215, 215, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.8s ease-in-out;
+    text-align: center;
+  }
+  
+  @keyframes overlayZoomGlow {
+    0% {
+      transform: scale(1);
+      text-shadow: 0 0 6px #ffffff, 0 0 10px #cccccc;
+    }
+    50% {
+      transform: scale(1.02);
+      text-shadow: 0 0 12px #f0f0f0, 0 0 24px #bfbfbf;
+    }
+    100% {
+      transform: scale(1);
+      text-shadow: 0 0 6px #ffffff, 0 0 10px #cccccc;
+    }
+  }
+  
+  #overlay-anim.show {
+    opacity: 1;
+    pointer-events: auto;
+    animation: overlayZoomGlow 2.5s ease-in-out infinite;
+  }
+  
+  #overlay-anim.fade-out {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+  
